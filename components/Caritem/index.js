@@ -13,6 +13,9 @@ const CarItem = (props) => {
       <View style={styles.titles}>
         <Text style={styles.title}>Model S</Text>
         <Text style={styles.subtitle}>Starting at $69,420</Text>
+      </View>
+
+      <View style={styles.buttonContainer}>
         <StyledButton
           type="primary"
           content={'Custom order'}
